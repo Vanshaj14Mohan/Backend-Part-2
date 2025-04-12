@@ -17,15 +17,19 @@ const port = 3000; // or 8080, can be used for making custom servers.
 
 // console.dir(app); to see the properties of app object.
 
-app.get("/", (req,res)=>{
-    res.send("Testing was Successfully done");
-});
+// app.get("/", (req,res)=>{
+//     res.send("Testing was Successfully done");
+// });
 
 app.listen(port, () =>{
     console.log(`Server is running on port, ${port}`)
 });
 
-console.dir(app);
+// console.dir(app);
 
 //Ports are logical endpoints of a network connection that is used to exchange information between a web server and a web client.
 // Ports are used to identify specific processes running on a computer.
+
+app.use((req,res)=>{
+    console.log("Hello, World!");
+})
