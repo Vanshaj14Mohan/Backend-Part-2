@@ -1,0 +1,15 @@
+Library vs Framework
+Library: A library is a collection of pre-written code that can be used to perform specific tasks.
+eg -> axios(we use it for API sent requests)
+
+Framework: A framework is a set of pre-written code that provides a structure and guidelines for building software applications.
+eg -> express
+
+Express - > It is a Node.js web application framework that provides a flexible way to create web applications.
+Used for server side programming.
+
+4 major usage we'll use express for:
+1. Listen for incoming requests
+2. Parse these requests
+3. To match response with routes
+4. To send suitable response back to the client.
