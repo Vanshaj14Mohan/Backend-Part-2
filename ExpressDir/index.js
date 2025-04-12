@@ -30,6 +30,13 @@ app.listen(port, () =>{
 //Ports are logical endpoints of a network connection that is used to exchange information between a web server and a web client.
 // Ports are used to identify specific processes running on a computer.
 
-// app.use((req,res)=>{ used for send responses, this method listens to every request eg GET, POST.. });
-//     console.log("Hello, World!");
-// })
+app.use((req,res)=>{ //used for send responses, this method listens to every request eg GET, POST.. });
+    //console.log(req);
+    console.log("Response got");
+    // res.send("A basic response");
+    // res.send({
+    //     name: "Apple",
+    //     color: "Red",
+    //     price: 50,
+    // }); JS object here but express will covert it into json representation.
+})
