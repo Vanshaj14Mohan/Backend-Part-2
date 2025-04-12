@@ -38,5 +38,5 @@ app.use((req,res)=>{ //used for send responses, this method listens to every req
     //     name: "Apple",
     //     color: "Red",
     //     price: 50,
-    // }); JS object here but express will covert it into json representation.
+    // }); JS object here but express will covert this into json representation.
 })
