@@ -34,9 +34,9 @@ app.use((req,res)=>{ //used for send responses, this method listens to every req
     //console.log(req);
     console.log("Response got");
     // res.send("A basic response");
-    // res.send({
-    //     name: "Apple",
-    //     color: "Red",
-    //     price: 50,
-    // }); JS object here but express will covert this into json representation.
+    res.send({
+        name: "Apple",
+        color: "Red",
+        price: 50,
+    }); //JS object here but express will covert this into json representation.
 })

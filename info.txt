@@ -13,3 +13,6 @@ Used for server side programming.
 2. Parse these requests
 3. To match response with routes
 4. To send suitable response back to the client.
+
+What is Routing: Routing is the process of selecting a path for taffic in a network or between or across multiple networks.
+eg: / or /home -> home page, /about -> about page, /contact -> contact page.
