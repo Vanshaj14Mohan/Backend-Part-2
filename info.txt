@@ -16,3 +16,4 @@ Used for server side programming.
 
 What is Routing: Routing is the process of selecting a path for taffic in a network or between or across multiple networks.
 eg: / or /home -> home page, /about -> about page, /contact -> contact page.
+We can send only one response for a same page, can't send multiple responses for a same page.
