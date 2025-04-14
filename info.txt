@@ -20,3 +20,6 @@ We can send only one response for a same page, can't send multiple responses for
 
 : Now in this we would also install Nodemon , which is a tool/package that helps us to automatically restart our server whenever 
 we make any changes in our code. command for installation -> npm i nodemon.
+
+: Path Parameters : Path parameters are used to pass values to routes. They are used to pass values to routes.
+Or we can say Sending variable value with our path is known as path parameters.
