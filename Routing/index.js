@@ -19,6 +19,14 @@ app.get("/search", (req,res)=>{
     res.send("You searched for something");
 })
 
+//using req.params, Path parameters
+// app.get("/:username/:id", (req,res)=>{
+//   console.log(req.params); //req.params => Shows the parameter of our request.
+//   let {username, id} = req.params;
+//   res.send(`Welcome to the page of @${username}`);
+//   res.send("Username Page");
+// })
+
 //"*" means to include all the routes incluing above ones and if someone sends req on any other route, it will show this message.
 // app.get("*", (req,res)=>{
 //     res.send("404 Error Path does not exist")
