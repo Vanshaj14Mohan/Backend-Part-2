@@ -17,3 +17,6 @@ Used for server side programming.
 What is Routing: Routing is the process of selecting a path for taffic in a network or between or across multiple networks.
 eg: / or /home -> home page, /about -> about page, /contact -> contact page.
 We can send only one response for a same page, can't send multiple responses for a same page.
+
+: Now in this we would also install Nodemon , which is a tool/package that helps us to automatically restart our server whenever 
+we make any changes in our code. command for installation -> npm i nodemon.

@@ -12,7 +12,7 @@ app.get("/about", (req,res)=>{
 })
 
 app.get("/contact", (req,res)=>{
-    res.send("You contacted contact page");
+    res.send("You searched for contact page");
 })
 
 app.get("/search", (req,res)=>{
