@@ -21,7 +21,7 @@ app.get("/search", (req,res)=>{
 
 //using req.params, Path parameters
 // app.get("/:username/:id", (req,res)=>{
-//   console.log(req.params); //req.params => Shows the parameter of our request.
+//   console.log(req.params); //req.params =>So it Shows the parameter of our request.
 //   let {username, id} = req.params;
 //   res.send(`Welcome to the page of @${username}`);
 //   res.send("Username Page");
