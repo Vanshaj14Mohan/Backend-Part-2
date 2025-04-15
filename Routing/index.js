@@ -37,6 +37,16 @@ app.post("/", (req,res)=>{
     res.send("You send a post request to the root");
 })
 
+app.get("/find", (req,res)=>{
+  // console.log(req.query);
+  let {q} = req.query;
+  if(!q){
+    res.send(`Nothing Searched`);
+  }
+  // res.send("Found it");
+  res.send(`Found results for query ${q}`);
+});
+
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`)
 });
