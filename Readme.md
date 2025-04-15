@@ -3,3 +3,5 @@
 #  - Handling requests.
 #  - Sending a response.
 #  - What is Routing.
+#  - Types of Requests.
+#  - What is Query Strings.
