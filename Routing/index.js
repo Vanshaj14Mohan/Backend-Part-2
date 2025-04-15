@@ -37,7 +37,7 @@ app.post("/", (req,res)=>{
     res.send("You send a post request to the root");
 });
 
-//Using Query Strings here: /find?q=......
+//Using Query Strings here: /find?q=.....
 app.get("/find", (req,res)=>{
   // console.log(req.query);
   let {q} = req.query;
