@@ -5,19 +5,19 @@ const port = 3000
 //Creating different routes now:
 app.get('/', (req, res) => {
   res.send('Route Path');
-})
+});
 
 app.get("/about", (req,res)=>{
     res.send("You contacted about page");
-})
+});
 
 app.get("/contact", (req,res)=>{
     res.send("You searched for contact page");
-})
+});
 
 app.get("/search", (req,res)=>{
     res.send("You searched for something");
-})
+});
 
 //using req.params, Path parameters
 // app.get("/:username/:id", (req,res)=>{
@@ -35,13 +35,14 @@ app.get("/search", (req,res)=>{
 //Also a post request can be created in the same way as get request
 app.post("/", (req,res)=>{
     res.send("You send a post request to the root");
-})
+});
 
+//Using Query Strings here: /find?q=......
 app.get("/find", (req,res)=>{
   // console.log(req.query);
   let {q} = req.query;
   if(!q){
-    res.send(`Nothing Searched`);
+    return res.send(`Nothing Searched`);
   }
   // res.send("Found it");
   res.send(`Found results for query ${q}`);
